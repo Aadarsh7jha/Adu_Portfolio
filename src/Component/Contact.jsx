@@ -6,7 +6,7 @@ const Contact = () => {
     <div name='Contact' className='max-w-screen-2xl container mx-auto px-4 md:px-20'>
         <h1 className='text-3xl font-bold my-[10px]'>Contact me</h1>
         <span className='font-semibold'>Please fill out the form below to contact me</span>
-        <div className='shadow-xl bg-gray-200 m-auto p-[20px] rounded-xl w-[400px]'>
+        <div className='shadow-xl bg-gray-200 m-auto p-[20px] rounded-xl w-[90%] md:w-[400px]'>
         <form onSubmit={onsubmit} >
         <h2 className='font-semibold text-xl'>Send Your Message</h2>
             <div className='flex mt-[10px] flex-col '>  
