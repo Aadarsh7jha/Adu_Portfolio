@@ -40,7 +40,7 @@ function PortFolio() {
         <div className="flex flex-cols md:flex-row items-center justify-center flex-wrap gap-6 my-5">
           {cardItem.map(({ id, logo, name ,link,link2}) => (
             <div
-              className="md:w-[310px] md:h-auto border-[2px] rounded-lg shadow-lg p-1 cursor-pointer hover:scale-110 duration-300"
+              className="md:w-[310px] w-[290px] md:h-auto border-[2px] rounded-lg shadow-lg p-1 cursor-pointer hover:scale-110 duration-300"
               key={id}
             >
               <img

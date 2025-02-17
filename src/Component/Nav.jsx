@@ -33,7 +33,7 @@ const Nav = () => {
     '>
         <div className=' flex items-center h-16 justify-between'>
             <div className='flex space-x-2'>
-                <img src={img} className='h-[60px] rounded-full' />
+                <img src={img} className='h-[55px] rounded-full' />
                 <h2 className='text-2xl cursor-pointer font-semibold'>Aadars<span className='text-green-500'>h</span>
                 <p className='text-sm'>Web Devloper</p>
                 </h2>
